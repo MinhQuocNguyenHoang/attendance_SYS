@@ -1,4 +1,8 @@
 # Ignore all Altium History folders
-*/History/
-*/Project Logs for attendnce_SYS/
-*/__Previews/
+**/History/
+
+# Ignore Altium Project Logs folders
+**/Project Logs for* 
+
+# Ignore Altium Previews
+**/__Previews/
