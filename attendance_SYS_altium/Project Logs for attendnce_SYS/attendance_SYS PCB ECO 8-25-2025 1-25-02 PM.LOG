@@ -1,7 +1,0 @@
-Removed Pin From Net: NetName=I00 Pin=-1
-Removed Pin From Net: NetName=+3.3 Pin=-2
-Removed Pin From Net: NetName=I00 Pin=BT1-1
-Removed Pin From Net: NetName=GND Pin=BT1-2
-Removed Pin From Net: NetName=+3.3 Pin=U2-4
-Removed Member From Class: ClassName=attendance_SYS Member=BT1
-Removed Member From Class: ClassName=attendance_SYS Member=

@@ -1,6 +1,0 @@
-Removed Pin From Net: NetName=SW Pin=U1-10
-Removed Pin From Net: NetName=led Pin=U1-11
-Removed Pin From Net: NetName=+3.3 Pin=U2-4
-Change Component Designator: OldDesignator= NewDesignator=C9
-Added Pin To Net: NetName=led Pin=U1-23
-Added Pin To Net: NetName=SW Pin=U1-24

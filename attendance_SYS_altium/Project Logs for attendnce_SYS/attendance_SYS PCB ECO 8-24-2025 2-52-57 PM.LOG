@@ -1,3 +1,0 @@
-Removed Pin From Net: NetName=+3.3 Pin=U2-4
-Change Component Footprint: Designator=R5 Old Footprint=RES-SMD-0101 New Footprint=RES-SMD-1206
-Change Component Footprint: Designator=R6 Old Footprint=RES-SMD-0101 New Footprint=RES-SMD-1206
