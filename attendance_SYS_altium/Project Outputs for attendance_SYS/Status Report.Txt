@@ -1,0 +1,32 @@
+Output: Gerber X2 Files
+Type  : GerberX2
+From  : Variant [[No Variations]] of Project [attendance_SYS.PrjPcb]
+   Generated File[attendance_SYS_Copper_Signal_Top.gbr]
+   Generated File[attendance_SYS_Copper_Signal_Bot.gbr]
+   Generated File[attendance_SYS_Pads_Bot.gbr]
+   Generated File[attendance_SYS_Pads_Top.gbr]
+   Generated File[attendance_SYS_Legend_Top.gbr]
+   Generated File[attendance_SYS_Legend_Bot.gbr]
+   Generated File[attendance_SYS_Soldermask_Top.gbr]
+   Generated File[attendance_SYS_Soldermask_Bot.gbr]
+   Generated File[attendance_SYS_Paste_Top.gbr]
+   Generated File[attendance_SYS_Paste_Bot.gbr]
+   Generated File[attendance_SYS_Keep-out.gbr]
+   Generated File[attendance_SYS_Mechanical_1.gbr]
+   Generated File[attendance_SYS_Mechanical_13.gbr]
+   Generated File[attendance_SYS_Mechanical_15.gbr]
+   Generated File[attendance_SYS_Mechanical_16.gbr]
+   Generated File[attendance_SYS_Mechanical_29.gbr]
+   Generated File[attendance_SYS_Profile.gbr]
+   Generated File[attendance_SYS_NPTH_Drill.gbr]
+   Generated File[attendance_SYS_PTH_Drill.gbr]
+   Generated File[attendance_SYS_Drawing_1.gbr]
+   Generated File[attendance_SYS_Drillmap_1.gbr]
+   Generated File[attendance_SYS.EXTREP]
+   Generated File[attendance_SYS.REP]
+
+
+Files Generated   : 23
+Documents Printed : 0
+
+Finished Output Generation At 9:56:20 PM On 9/15/2025

@@ -1,7 +1,7 @@
 Protel Design System Design Rule Check
 PCB File : D:\altium and source projects\source_attendace_SYS\attendance_SYS_altium\attendance_SYS.PcbDoc
 Date     : 9/15/2025
-Time     : 9:52:06 PM
+Time     : 9:55:36 PM
 
 Processing Rule : Clearance Constraint (Gap=0.3mm) (All),(All)
 Rule Violations :0
@@ -157,4 +157,4 @@ Rule Violations :0
 
 Violations Detected : 109
 Waived Violations : 0
-Time Elapsed        : 00:00:01
+Time Elapsed        : 00:00:00
