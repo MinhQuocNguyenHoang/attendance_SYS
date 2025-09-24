@@ -86,3 +86,4 @@ $<TARGET_FILE:__idf_abobija__rc522>
 $<TARGET_FILE:__idf_espp__logger>
 $<TARGET_FILE:__idf_espp__cli>
 $<TARGET_FILE:__idf_main>
+$<TARGET_FILE:__idf_driver_I2C>
