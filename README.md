@@ -43,3 +43,11 @@ Cơ chế retry + error handling để đảm bảo dữ liệu không bị mấ
 Deep Sleep tiết kiệm năng lượng, chỉ thức dậy khi có thẻ RFID.
 
 Hỗ trợ WiFi Provisioning qua BLE: người dùng dùng app điện thoại để nhập SSID + Password, ESP32 tự động kết nối mà không cần sửa code. (ESP BLE Provisioning App trên CH play)
+
+Cài đặt: clone repo, cài đặt các thư viện cần thiết, build và chạy thử, đi dây theo chân đã được định nghĩa trong code
+
+Demo: 
+
+Hướng phát triển: Tích hợp thêm cảm biến nhận dạng vân tay, quét QR thẻ để dễ sử dụng hơn trong môi trường trường học
+
+Tác giả: Nguyễn Hoàng Minh Quốc
