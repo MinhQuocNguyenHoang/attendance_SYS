@@ -43,6 +43,7 @@ Cơ chế retry + error handling để đảm bảo dữ liệu không bị mấ
 Deep Sleep tiết kiệm năng lượng, chỉ thức dậy khi có thẻ RFID.
 
 Hỗ trợ WiFi Provisioning qua BLE: người dùng dùng app điện thoại để nhập SSID + Password, ESP32 tự động kết nối mà không cần sửa code. (ESP BLE Provisioning App trên CH play)
+
 Quản lý FreeRTOS task:
 
 task đọc ID
