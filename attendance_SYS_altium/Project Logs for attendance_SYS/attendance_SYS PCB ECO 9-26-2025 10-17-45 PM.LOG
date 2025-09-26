@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=+5 Pin=D1-2
+Removed Pin From Net: NetName=+3.3 Pin=U2-4
+Removed Member From Class: ClassName=attendance_SYS Member=D1
+Change Component Designator: OldDesignator=F||QR NewDesignator=C9
+Change Component Designator: OldDesignator=LCD NewDesignator=C10
+Change Component Designator: OldDesignator=RFID NewDesignator=C11
+Change Component Designator: OldDesignator=Wifi NewDesignator=SW1
+Added Pin To Net: NetName=+5 Pin=USB1-1
+Added Member To Class: ClassName=attendance_SYS Member=Component C9 Header4
