@@ -86,4 +86,4 @@ D:/esp/attendance_system/build/esp-idf/abobija__rc522/libabobija__rc522.a
 D:/esp/attendance_system/build/esp-idf/espp__logger/libespp__logger.a
 D:/esp/attendance_system/build/esp-idf/espp__cli/libespp__cli.a
 D:/esp/attendance_system/build/esp-idf/main/libmain.a
-D:/esp/attendance_system/build/esp-idf/driver_I2C/libdriver_I2C.a
+D:/esp/attendance_system/build/esp-idf/components/libcomponents.a

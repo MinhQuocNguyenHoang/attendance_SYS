@@ -871,10 +871,10 @@ D:/esp/attendance_system/build/esp-idf/main/CMakeFiles/list_install_components.d
 D:/esp/attendance_system/build/esp-idf/main/CMakeFiles/install.dir
 D:/esp/attendance_system/build/esp-idf/main/CMakeFiles/install/local.dir
 D:/esp/attendance_system/build/esp-idf/main/CMakeFiles/install/strip.dir
-D:/esp/attendance_system/build/esp-idf/driver_I2C/CMakeFiles/__idf_driver_I2C.dir
-D:/esp/attendance_system/build/esp-idf/driver_I2C/CMakeFiles/edit_cache.dir
-D:/esp/attendance_system/build/esp-idf/driver_I2C/CMakeFiles/rebuild_cache.dir
-D:/esp/attendance_system/build/esp-idf/driver_I2C/CMakeFiles/list_install_components.dir
-D:/esp/attendance_system/build/esp-idf/driver_I2C/CMakeFiles/install.dir
-D:/esp/attendance_system/build/esp-idf/driver_I2C/CMakeFiles/install/local.dir
-D:/esp/attendance_system/build/esp-idf/driver_I2C/CMakeFiles/install/strip.dir
+D:/esp/attendance_system/build/esp-idf/components/CMakeFiles/__idf_components.dir
+D:/esp/attendance_system/build/esp-idf/components/CMakeFiles/edit_cache.dir
+D:/esp/attendance_system/build/esp-idf/components/CMakeFiles/rebuild_cache.dir
+D:/esp/attendance_system/build/esp-idf/components/CMakeFiles/list_install_components.dir
+D:/esp/attendance_system/build/esp-idf/components/CMakeFiles/install.dir
+D:/esp/attendance_system/build/esp-idf/components/CMakeFiles/install/local.dir
+D:/esp/attendance_system/build/esp-idf/components/CMakeFiles/install/strip.dir

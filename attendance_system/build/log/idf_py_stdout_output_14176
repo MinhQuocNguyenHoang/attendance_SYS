@@ -1,0 +1,108 @@
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (30) boot: ESP-IDF v5.4.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Sep 24 2025 14:27:37[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v1.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (42) boot.esp32: SPI Flash Size : 4MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 001c0000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=3c318h (246552) map[0m
+[0;32mI (174) esp_image: segment 1: paddr=0004c340 vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (174) esp_image: segment 2: paddr=0004c364 vaddr=3ffbdb60 size=03cb4h ( 15540) load[0m
+[0;32mI (184) esp_image: segment 3: paddr=00050020 vaddr=400d0020 size=c4ad4h (805588) map[0m
+[0;32mI (461) esp_image: segment 4: paddr=00114afc vaddr=3ffc1814 size=020c8h (  8392) load[0m
+[0;32mI (464) esp_image: segment 5: paddr=00116bcc vaddr=40080000 size=1f7cch (128972) load[0m
+[0;32mI (530) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (530) boot: Disabling RNG early entropy source...[0m
+[0;32mI (540) cpu_start: Multicore app[0m
+[0;32mI (548) cpu_start: Pro cpu start user code[0m
+[0;32mI (549) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (549) app_init: Application information:[0m
+[0;32mI (549) app_init: Project name:     attendance_system[0m
+[0;32mI (553) app_init: App version:      1[0m
+[0;32mI (557) app_init: Compile time:     Sep 24 2025 14:27:29[0m
+[0;32mI (562) app_init: ELF file SHA256:  bf12d602c...[0m
+[0;32mI (566) app_init: ESP-IDF:          v5.4.1-dirty[0m
+[0;32mI (571) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (574) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (578) efuse_init: Chip rev:         v1.1[0m
+[0;32mI (582) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (589) heap_init: At 3FFAFF10 len 000000F0 (0 KiB): DRAM[0m
+[0;32mI (594) heap_init: At 3FFB6388 len 00001C78 (7 KiB): DRAM[0m
+[0;32mI (599) heap_init: At 3FFB9A20 len 00004108 (16 KiB): DRAM[0m
+[0;32mI (604) heap_init: At 3FFCA880 len 00015780 (85 KiB): DRAM[0m
+[0;32mI (609) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (614) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (620) heap_init: At 4009F7CC len 00000834 (2 KiB): IRAM[0m
+[0;32mI (627) spi_flash: detected chip: generic[0m
+[0;32mI (629) spi_flash: flash io: dio[0m
+[0;33mW (632) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`[0m
+[0;32mI (642) coexist: coex firmware version: e727207[0m
+[0;32mI (647) main_task: Started on CPU0[0m
+[0;32mI (657) main_task: Calling app_main()[0m
+[0;32mI (657) gpio: GPIO[16]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (657) gpio: GPIO[16]| InputEn: 1| OutputEn: 0| OpenDrain: 0| Pullup: 1| Pulldown: 0| Intr:0 [0m
+[0;32mI (667) I2C: Scanning I2C bus...[0m
+[0;32mI (677) I2C: I2C device found at address 0x27[0m
+[0;32mI (787) wifi:wifi driver task: 3ffcea28, prio:23, stack:6656, core=0[0m
+[0;32mI (797) wifi:wifi firmware version: 79fa3f41ba[0m
+[0;32mI (797) wifi:wifi certification version: v7.0[0m
+[0;32mI (797) wifi:config NVS flash: enabled[0m
+[0;32mI (797) wifi:config nano formatting: disabled[0m
+[0;32mI (797) wifi:Init data frame dynamic rx buffer num: 32[0m
+[0;32mI (807) wifi:Init static rx mgmt buffer num: 5[0m
+[0;32mI (807) wifi:Init management short buffer num: 32[0m
+[0;32mI (817) wifi:Init dynamic tx buffer num: 32[0m
+[0;32mI (817) wifi:Init static rx buffer size: 1600[0m
+[0;32mI (827) wifi:Init static rx buffer num: 10[0m
+[0;32mI (827) wifi:Init dynamic rx buffer num: 32[0m
+[0;32mI (827) wifi_init: rx ba win: 6[0m
+[0;32mI (837) wifi_init: accept mbox: 6[0m
+[0;32mI (837) wifi_init: tcpip mbox: 32[0m
+[0;32mI (837) wifi_init: udp mbox: 6[0m
+[0;32mI (837) wifi_init: tcp mbox: 6[0m
+[0;32mI (847) wifi_init: tcp tx win: 5760[0m
+[0;32mI (847) wifi_init: tcp rx win: 5760[0m
+[0;32mI (847) wifi_init: tcp mss: 1440[0m
+[0;32mI (857) wifi_init: WiFi IRAM OP enabled[0m
+[0;32mI (857) wifi_init: WiFi RX IRAM OP enabled[0m
+[0;32mI (857) wifi_prov_scheme_ble: BT memory released[0m
+[0;32mI (867) rc522_ID: Already provisioned, starting station mode[0m
+[0;32mI (1907) wifi_prov_scheme_ble: BTDM memory released[0m
+[0;32mI (1907) phy_init: phy_version 4860,6b7a6e5,Feb  6 2025,14:47:07[0m
+[0;32mI (1987) wifi:mode : sta (20:43:a8:71:cb:64)[0m
+[0;32mI (1987) wifi:enable tsf[0m
+[0;32mI (4407) wifi:new:<3,0>, old:<1,0>, ap:<255,255>, sta:<3,0>, prof:1, snd_ch_cfg:0x0[0m
+[0;32mI (4407) wifi:state: init -> auth (0xb0)[0m
+[0;32mI (4417) wifi:state: auth -> assoc (0x0)[0m
+[0;32mI (4417) wifi:state: assoc -> run (0x10)[0m
+[0;32mI (4527) wifi:connected with Bill, aid = 2, channel 3, BW20, bssid = fc:40:09:e3:bd:86[0m
+[0;32mI (4527) wifi:security: WPA2-PSK, phy: bgn, rssi: -47[0m
+[0;32mI (4537) wifi:pm start, type: 1[0m
+
+[0;32mI (4537) wifi:dp: 1, bi: 102400, li: 3, scale listen interval from 307200 us to 307200 us[0m
+[0;32mI (4607) wifi:AP's beacon interval = 102400 us, DTIM period = 1[0m
+[0;32mI (6707) wifi:<ba-add>idx:0 (ifx:0, fc:40:09:e3:bd:86), tid:0, ssn:1, winSize:64[0m
+[0;32mI (7867) rc522_ID: Got IP:192.168.1.182[0m
+[0;32mI (7867) esp_netif_handlers: sta ip: 192.168.1.182, mask: 255.255.255.0, gw: 192.168.1.1[0m
+[0;32mI (7867) rc522_ID: WiFi Connected![0m
+[0;32mI (9877) main_task: Returned from app_main()[0m
+[0;32mI (9917) rc522: PCD (fw=unknown) initialized[0m
