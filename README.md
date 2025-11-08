@@ -67,7 +67,7 @@ A demonstration video is included:
 [Demo Video](./demo_IOT_attendance_sys.mp4)
 
 ## Testing
-Scan RFID card → Data should instantly appear in Google Sheets 
+Scan RFID card → Data should instantly appear in Google Sheets<br> 
 Test Wi-Fi Provisioning → Device must reconnect automatically
 
 ## Roadmap / Future Improvements
