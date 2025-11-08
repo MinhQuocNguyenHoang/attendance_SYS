@@ -11,7 +11,7 @@ The device scans RFID cards to record attendance information (Card ID + Timestam
 ## Hardware Used
 - MCU: ESP32 (WiFi + Bluetooth)
 - RFID Module: RC522 (SPI)
-- LCD: 16x02 via GPIO 4-bit (HD44780 driver)
+- LCD: 16x02 via I2C
 - Power supply + voltage regulator
 - Custom PCB designed with Altium Designer
 
