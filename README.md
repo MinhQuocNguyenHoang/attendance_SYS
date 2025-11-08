@@ -6,7 +6,7 @@ The device scans RFID cards to record attendance information (Card ID + Timestam
 
 **Future enhancements:** integrating fingerprint authentication for additional security and flexibility.
 
----
+
 
 ## Hardware Used
 - MCU: ESP32 (WiFi + Bluetooth)
@@ -15,7 +15,7 @@ The device scans RFID cards to record attendance information (Card ID + Timestam
 - Power supply + voltage regulator
 - Custom PCB designed with Altium Designer
 
----
+
 
 ## Software Environment
 - Language: Embedded C
@@ -24,7 +24,7 @@ The device scans RFID cards to record attendance information (Card ID + Timestam
 - Tools: VS Code, Altium Designer (PCB design)
 - Library: abobija_rc522
 
----
+
 
 ## Project Structure
 ```
@@ -43,19 +43,16 @@ The device scans RFID cards to record attendance information (Card ID + Timestam
 - Upload attendance data to Google Sheets
 - Wi-Fi provisioning via BLE
 
----
 
 ## Wiring / Schematic
-- [PCB Layout](./layout.pdf)
-- [Schematic](./schematic.pdf)
+- [PCB Layout](./layout.pdf) 
+- [Schematic](./schematic.pdf) 
 
----
 
 ## Getting Started
-
-1. Install ESP-IDF
-2. Setup Google Sheets API: [Google Sheet](https://docs.google.com/spreadsheets/d/1bOf_m6btDb6PRxpN6TObC4pNcN5I2Ge17Xd1aixpjCk/edit?usp=sharing)
-3. Connect USB cable to flash and monitor ESP32
+1. Install ESP-IDF 
+2. Setup Google Sheets API: [Google Sheet](https://docs.google.com/spreadsheets/d/ 1bOf_m6btDb6PRxpN6TObC4pNcN5I2Ge17Xd1aixpjCk/edit?usp=sharing) 
+3. Connect USB cable to flash and monitor ESP32 
 
 ```bash
 git clone https://github.com/MinhQuocNguyenHoang/attendance_SYS.git
