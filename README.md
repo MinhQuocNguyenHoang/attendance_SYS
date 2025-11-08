@@ -1,59 +1,69 @@
-Giới thiệu
+1. Overview
+    This is an IoT-based attendance system built using an ESP32 microcontroller.
+    The device scans RFID cards to record attendance information (Card ID + Timestamp) and uploads the data in real time to Google Sheets for storage and monitoring.
 
-Dự án Hệ thống điểm danh IoT được phát triển dựa trên ESP32 + RC522 RFID, cho phép:
+    Future enhancements include integrating fingerprint authentication for additional security and flexibility.
 
-Quét thẻ RFID để điểm danh.
+2. Hardware Used
+    MCU: ESP32 (WiFi + Bluetooth)
+    Module RFID: RC522 RFID Module (giao tiếp SPI) 
+    Module LCD: LCD 16x02 (giao tiếp bằng GPIO 4 bit qua driver HD44780)
+    Nguồn cấp + mạch ổn áp
+    Custom PCB thiết kế bằng Altium Designer
 
-Gửi dữ liệu trực tiếp lên Google Sheets thông qua HTTPS.
+3. Software Environment
+    Ngôn ngữ: Embedded C
+    Framework: ESP‑IDF (version v5.4.1)
+    RTOS: FreeRTOS real-time kernel
+    Công cụ phát triển: VS Code, Altium Designer (cho phần PCB)
+    Thư viện: abobija_rc522
 
-Quản lý dữ liệu điểm danh theo thời gian thực, an toàn và đáng tin cậy.
+4. Project Structure
+    attendance_SYS/
+    ┣ attendance_SYS_altium/        # Thiết kế PCB / bản vẽ mạch
+    ┣ attendance_system/            # Code chính MCU
+    ┣ README.md                     # File này
+    ┣ demo_IOT_attendance_sys.mp4   # Video demo
+    ┣ layout.pdf                    # Bố cục phần cứng
+    ┗ schematic.pdf                  # Sơ đồ mạch
 
-Ứng dụng: Quản lý lớp học, công ty, sự kiện hoặc bất kỳ hệ thống cần theo dõi sự có mặt của người dùng.
+5. Features
+    Scan RFID cards and verify card IDs
+    Log attendance time (Real-time Clock or NTP sync)
+    Upload attendance data to Google Sheets
+    Wi-Fi Provisioning via BLE
 
-Phần cứng sử dụng
+6. Wiring / Schematic
+    Full hardware schematics included in:
+    [PCB Layout](./layout.pdf)
+    [Schematic](./schematic.pdf)
 
-ESP32 (module WiFi + Bluetooth)
 
-RC522 RFID Module (giao tiếp SPI)
+7. Getting Started
+    ESP-IDF installed
+    A Google account with Google Sheets API setup and can change in app script of Google Sheet: https://docs.google.com/spreadsheets/d/1bOf_m6btDb6PRxpN6TObC4pNcN5I2Ge17Xd1aixpjCk/edit?usp=sharing
+    USB cable to flash and monitor ESP32
+    Build & Flash Example (ESP-IDF)
+        git clone https://github.com/MinhQuocNguyenHoang/attendance_SYS.git
+        cd attendance_SYS/attendance_system
+        idf.py set-target esp32
+        idf.py build
+        idf.py flash monitor
 
-Nguồn pin + mạch ổn áp
+8. Demo
+    A demonstration video is included:
+    [Demo Video](./demo_IOT_attendance_sys.mp4)
 
-Custom PCB (thiết kế bằng Altium)
+9. Testing
+    Scan RFID card → Data should instantly appear in Google Sheets
+    Test Wi-Fi Provisioning → Device must reconnect automatically
 
-Phần mềm & Công nghệ
+10. Roadmap / Future Improvements
+    Add fingerprint sensor for secure attendance
+    Retry & error handling to prevent data loss
+    Build a mobile/web dashboard for data visualization
+    Improve data security with message encryption
 
-Ngôn ngữ: Embedded C (ESP-IDF)
-
-Hệ điều hành: FreeRTOS (quản lý đa nhiệm)
-
-Kết nối mạng: WiFi + HTTPS client
-
-Cloud: Google Sheets API (RESTful)
-
-Công cụ phát triển: ESP-IDF, VS Code, Altium Designer
-
-Tính năng chính
-
-Quét thẻ RFID và xác thực người dùng.
-
-Gửi dữ liệu điểm danh (ID thẻ, thời gian) lên Google Sheets.
-
-Cơ chế retry + error handling để đảm bảo dữ liệu không bị mất.
-
-Deep Sleep tiết kiệm năng lượng, chỉ thức dậy khi có thẻ RFID.
-
-Hỗ trợ WiFi Provisioning qua BLE: người dùng dùng app điện thoại để nhập SSID + Password, ESP32 tự động kết nối mà không cần sửa code. (ESP BLE Provisioning App trên CH play)
-
-Quản lý FreeRTOS task:
-
-task đọc ID
-
-task gửi dữ liệu lên web
-
-Cài đặt: clone repo, cài đặt các thư viện cần thiết, build và chạy thử, đi dây theo chân đã được định nghĩa trong code
-
-Demo: 
-
-Hướng phát triển: Tích hợp thêm cảm biến nhận dạng vân tay, quét QR thẻ để dễ sử dụng hơn trong môi trường trường học
-
-Tác giả: Nguyễn Hoàng Minh Quốc
+12. Author
+    Nguyễn Hoàng Minh Quốc
+    GitHub: @MinhQuocNguyenHoang
