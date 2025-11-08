@@ -42,6 +42,9 @@ The device scans RFID cards to record attendance information (Card ID + Timestam
 - Log attendance time (RTC or NTP sync)
 - Upload attendance data to Google Sheets
 - Wi-Fi provisioning via BLE
+- FreeRTOS task flow:
+    1. Read rfid
+    2. Send data to google sheet via https method GET
 
 
 ## Wiring / Schematic
