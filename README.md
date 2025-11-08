@@ -78,4 +78,4 @@ Improve data security with message encryption
 
 ## Author
 Nguyễn Hoàng Minh Quốc 
-GitHub: @MinhQuocNguyenHoang
+GitHub: @MinhQuocNguyenHoang 
