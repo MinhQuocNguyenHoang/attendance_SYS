@@ -77,5 +77,5 @@ Build a mobile/web dashboard for data visualization
 Improve data security with message encryption 
 
 ## Author
-Nguyễn Hoàng Minh Quốc 
-GitHub: @MinhQuocNguyenHoang 
+Nguyễn Hoàng Minh Quốc<br>
+GitHub: @MinhQuocNguyenHoang
