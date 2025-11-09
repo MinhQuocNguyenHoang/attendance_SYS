@@ -74,10 +74,11 @@ Scan RFID card → Data should instantly appear in Google Sheets<br>
 Test Wi-Fi Provisioning → Device must reconnect automatically
 
 ## Roadmap / Future Improvements
-Add fingerprint sensor for secure attendance 
-Retry & error handling to prevent data loss 
-Build a mobile/web dashboard for data visualization 
-Improve data security with message encryption 
+- Add fingerprint sensor for secure attendance 
+- Retry & error handling to prevent data loss 
+- Build a mobile/web dashboard for data visualization 
+- Improve data security with message encryption
+- OTA firmware to ESP32  
 
 ## Author
 Nguyễn Hoàng Minh Quốc<br>
