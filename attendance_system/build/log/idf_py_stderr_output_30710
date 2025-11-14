@@ -1,0 +1,7 @@
+info: INFO: Symbol IDF_TARGET_LINUX defined in multiple locations (see below). Please check if this is a correct behavior or a random name match:
+    /home/minhquoc/apps/esp/esp-idf/Kconfig:162
+    /home/minhquoc/apps/esp/esp-idf/Kconfig:78
+CMake Warning at managed_components/espp__cli/CMakeLists.txt:6 (message):
+  C++ exceptions are disabled, CLI is disabled
+
+
