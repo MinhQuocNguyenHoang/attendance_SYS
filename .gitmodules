@@ -1,0 +1,3 @@
+[submodule "attendance_sys"]
+	path = attendance_sys
+	url = git@github.com:MinhQuocNguyenHoang/ESP32BUILDCI.git
